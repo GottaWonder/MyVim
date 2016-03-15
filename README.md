@@ -6,8 +6,8 @@
 +---_vimrc
 +---hosts
 +---bundle
-    +---Vundle.vim(father)
-    |   +---XXX(children)
+    +---Vundle.vim(root)
+    |   +---XXX(sub)
     +---xxx(plugins)
 
 ##_vimrc##
