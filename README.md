@@ -16,4 +16,10 @@
 ##hosts##
 host文件，用于翻墙
 
-
+##安装步骤##
+1. 下载并安装 *[VIM](http://www.vim.org/download.php)；*
+2. 下载并安装 *[GIT](https://git-scm.com/download/)；*
+3. 从安装包中解压 *Curl*；
+4. 配置 Git&Crul 的坏境变量；
+5. git -clone **Vundle:**[https://github.com/VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim)到PC本地；
+6. 打开 **_vimrc**,进入命令模式，键入“：BundleList”，再出现列表后再键入“：BundleInstall”，等待结束。
