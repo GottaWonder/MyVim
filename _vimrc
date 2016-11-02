@@ -105,7 +105,7 @@ filetype off  " required
 " set the runtime path to include Vundle and initialize
 "">>>>>>>>>>Vundle
 "Vundle的路径
-set rtp+=$VIM/vimfiles/bundle/vundle
+set rtp+=$VIM/vimfiles/bundle/vundle.vim
 " alternatively, pass a path where Vundle should install plugins
 "插件的安装路径
 "call vundle#begin('~/some/path/here')
@@ -299,6 +299,14 @@ let NERDTreeShowBookmarks=1
 "">>>>>>>>>>nerdtree-git-plugin
 Bundle 'Xuyuanp/nerdtree-git-plugin'
 ""<<<<<<<<<<nerdtree-git-plugin
+"">>>>>>>>>>emmet-vim
+Bundle 'mattn/emmet-vim'
+let g:user_emmet_mode='n'    "only enable normal mode functions.
+let g:user_emmet_mode='inv'  "enable all functions, which is equal to
+let g:user_emmet_mode='a'    "enable all function in all mode.
+let g:user_emmet_leader_key='<C-H>'
+""https://github.com/mattn/emmet-vim
+""<<<<<<<<<<emmet-vim
 "">>>>>>>>>>DrawIt
 ""vim画图
 ""http://www.vim.org/scripts/script.php?script_id=40
@@ -383,5 +391,6 @@ set fdm=manual
 "let g:winManagerWidth = 30
 "在进入vim时自动打开/关闭winmanager___Auto___Open__
 "let g:AutoOpenWinManager = 1
+
 
 
