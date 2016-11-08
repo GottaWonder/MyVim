@@ -349,13 +349,13 @@ let g:user_emmet_leader_key='<C-H>'
 ""<<<<<<<<<<DrawIt
 """"""""""""""""""""""""""""""按键映射
 "执行更新_vimrc
-nmap <Leader>uvim :source $VIM/_vimrc<CR>
+nmap <Leader>uvim :source! $VIM/_vimrc<CR>
 "新窗编辑_vimrc
-nmap <Leader>ovim :vs $VIM/_vimrc<CR>
-nmap <Leader>evim :e $VIM/_vimrc<CR>
+nmap <Leader>ovim :vs! $VIM/_vimrc<CR>
+nmap <Leader>evim :e! $VIM/_vimrc<CR>
 "打开host文件
-nmap <Leader>ohost :vs C:\Windows\System32\drivers\etc\hosts<CR>
-nmap <Leader>ehost :e C:\Windows\System32\drivers\etc\hosts<CR>
+nmap <Leader>ohost :vs! C:\Windows\System32\drivers\etc\hosts<CR>
+nmap <Leader>ehost :e! C:\Windows\System32\drivers\etc\hosts<CR>
 " 插入匹配括号
 "	inoremap () ()<LEFT>
 "	inoremap [] []<LEFT>
