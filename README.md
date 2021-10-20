@@ -36,7 +36,3 @@
        - 解压`bundle.rar` 到bundle下
 
 
-## 额外操作
-### windows
-- windows环境需解压`windows_ctags.rar`将 `ctags.exe` 文件， 将这个文件 复制到 `C:\Windows\System32\` 中
-- 第6步也可直接
